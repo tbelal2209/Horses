@@ -1,7 +1,12 @@
 package com.company;
 
 public class HorseBarn {
-        private Horse[] spaces;
+
+    private Horse[] spaces;
+
+    public HorseBarn(Horse[] spaces){
+        this.spaces = spaces;
+    }
 
 
 
